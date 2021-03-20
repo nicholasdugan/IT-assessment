@@ -59,7 +59,7 @@ h1 {
 
 h2{
     font-size: 47px;
-    color: #552010;
+    color: #011936;
     font-family: 'La Belle Aurore', cursive;
 
 }
@@ -77,7 +77,7 @@ h5 {
 
 
 p {
-    color: #bc673e;
+    color: black;
     font-weight: 300;
     font-size: 18px;
 
@@ -132,7 +132,7 @@ header {
     padding-bottom: 20px;
 
     text-align: center;
-    color: #552010;
+    color: #011936;
 }
 
 header a {
@@ -194,7 +194,7 @@ a:hover {
 }
 /*-------------------------------- FOOTER */
 footer {
-    background-color: #bc673e;
+    background-color: #011936;
 
     padding-top: 40px;
     padding-bottom: 40px;
@@ -206,13 +206,6 @@ footer .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-}
-.instagram-icon {
-    text-align: right;
-}   
-
-.instagram-icon i:before{
-    color: white;
 }
 
 footer p {
@@ -240,37 +233,6 @@ footer p {
 }
 
 
-
-
-.news-component-offset {
-    background-color: #999;
-}
-
-.news-component-offset img {
-    float:right;
-    margin-left: 20px;
-    margin-right: 0;
-}
-
-.news-component-image-only {
-    display: flex;
-    justify-content: center;
-}
-
-.news-component-image-only img {
-    margin-right: 0;
-    float: none;
-}
-
-.news-component-columns {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-
-    border-style: solid;
-    border-color: var(--link-colour);
-}
-
 @media screen and (min-width: 800px) {
 
 
@@ -286,18 +248,6 @@ footer p {
 
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
 
  
 
