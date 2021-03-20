@@ -98,19 +98,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.section-header {
-    background-color: var(--alternate-bg-color);
-    padding: 20px 0;
-    text-align: center;
-}
-
-.section-title {
-    text-align: center;
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 47px;
-    color: var(--link-colour)
-}
-
 
 /*-------------------------------- LAYOUTS */
 
@@ -176,7 +163,6 @@ a:hover {
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 8px;
     list-style: none;
   
 
@@ -215,13 +201,7 @@ footer p {
     color: #fff6ee;
 }
 
-/*-------------------------------- BUTTONS */
 
-.back-top a {
-    background-color: var(--vertical-spacer);
-    color: var(--main-bg-color);
-    padding: var(--padder)
-}
 /*-------------------------------- MODULES */
 .news-component {
     border-width: 1px;
