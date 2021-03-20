@@ -1,16 +1,16 @@
 /*-------------------------------- VARIABLES */
 
 :root {
-    --main-bg-color: #fff6ee;
+    --main-bg-color: #EAE0CC;
 
     --vertical-spacer: 20px;
 
     --padder: 3%;
 
-    --alternate-bg-color: #bc673e;
+    --alternate-bg-color: #465362;
 
-    --link-colour: #552010;
-    --hover-colour: #000;
+    --link-colour: #F17105;
+    --hover-colour: #011936;
 
     scroll-behavior: smooth;
 
@@ -29,7 +29,7 @@ body {
     background-color: var(--main-bg-color);
     
     font-family: 'Roboto', sans-serif;
-    color: #bc673e;
+    color: black;
     font-size: 20px;
     line-height: 1.4;
 
@@ -53,7 +53,7 @@ img {
 
 h1 {
     font-size: 60px;
-    color: #d19272;
+    color: #F17105;
 
 }
 
@@ -240,11 +240,6 @@ footer p {
 }
 
 
-.news-component img {
-    margin-right: 20px;
-    
-}
-
 
 
 .news-component-offset {
@@ -304,74 +299,5 @@ footer p {
     text-align: center;
   }
 
-  /*-------------------------------- IMAGE GALLERY */
+ 
 
-  .gallery {
-
-
-  }
-
-  .gallery-images {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 20px;
-  }
-
-  .gallery-images img {
-      width: 100%;
-  }
-
-  @media screen and (max-width: 800px) {
-       .gallery-images  {
-           grid-template-columns: 1fr 1fr;
-       }
-  }
-
-  /* gallery css*/
-
-  .sl-wrapper .sl-image .sl-caption {
-      background-color: var(--link-colour)
-
-  }
-
-  /* hero module*/
-.hero-module {
-    position: relative;
-}
-
-.hero-moduleimg {
-     width: 100%;
-}
-
-.hero-module .heading-main {
-    text-align: center;
-    color: var(--alternate-bg-color);
-    font-size: 30px;
-}
-
-
-@media screen and (min-width: 800px) {
-
-   
-    .hero-content {
-        position: absolute;
-
-        width: 100%;
-        height: 100%;
-
-        bottom: 0;
-
-        display: flex;
-
-        align-items: center;
-        justify-content: center;
-
-    
-    }
-
-   .hero-module .heading-main {
-       color: var(--link-colour);
-       text-shadow: 0px 1px 1px var(--alternate-bg-color);
-       text-align: center;
-       font-size: 60px; }
-   } 
