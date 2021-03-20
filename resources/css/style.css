@@ -1,13 +1,13 @@
 /*-------------------------------- VARIABLES */
 
 :root {
-    --main-bg-color: #EAE0CC;
+    --main-bg-color: #fff;
 
     --vertical-spacer: 20px;
 
     --padder: 3%;
 
-    --alternate-bg-color: #465362;
+    --alternate-bg-color: #011936;
 
     --link-colour: #F17105;
     --hover-colour: #011936;
@@ -60,7 +60,7 @@ h1 {
 h2{
     font-size: 47px;
     color: #011936;
-    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Tahoma';
 
 }
 
@@ -150,7 +150,7 @@ a:hover {
 }
 
 .header-heading {
-    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Tahoma';
     font-size: 60px;
 }
 
@@ -176,6 +176,7 @@ a:hover {
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 0;
+    padding-left: 8px;
     list-style: none;
   
 
